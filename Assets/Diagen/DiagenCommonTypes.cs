@@ -20,7 +20,7 @@ namespace DiagenCommonTypes
         public int gpuSelect = -1;
         public float utilization = 0.7f;
         public string LLMmodel = "baseXI3.gguf";
-        public string apiKey = "";
+        public string apiKey = "f4d7c526-a8eb-4c8d-8366-8d119d2b5594";
         public string sessionId;
 
         public void Init()
