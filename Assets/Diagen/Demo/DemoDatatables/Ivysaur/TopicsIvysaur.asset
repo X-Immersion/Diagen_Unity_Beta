@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93d5e4dab19c23d4a875ebc7e0fe3d53, type: 3}
+  m_Name: TopicsIvysaur
+  m_EditorClassIdentifier: 
+  topicsArray:
+  - Name: positive
+    StateTags:
+    - base
+    Description: 'Nice and friendly text. '
+    Threshold: 0.3
+    ReturnTrigger: positive
+  - Name: positive
+    StateTags:
+    - base
+    Description: Offers food or shelter
+    Threshold: 0.3
+    ReturnTrigger: positive
+  - Name: positive
+    StateTags:
+    - base
+    Description: propose to play or to go for a walk
+    Threshold: 0.3
+    ReturnTrigger: positive
+  - Name: negative
+    StateTags:
+    - base
+    Description: Insults or saying bad things
+    Threshold: 0.3
+    ReturnTrigger: negative

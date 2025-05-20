@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cae4ec2886d119a438c83032345c9d29, type: 3}
+  m_Name: EventsInfoOdelie
+  m_EditorClassIdentifier: 
+  eventsArray:
+  - Name: help_1
+    StateTags:
+    - base
+    SayVerbatim: 
+    Instruction: You say that Oriane is mad and attacked you with a kitchen knife
+      because you said to her that you wanted to leave the island. You tell the Newcomer
+      to flee from this island as fast as possible.
+    ReturnTrigger: help_1_finished
+    Repeatable: 1
+    GlobalStateTags: 1
+    EnableStateTags:
+    - suspicious
+    DisableStateTags:
+    - baseO
+    ActionEvents: []
+  - Name: be_carefull
+    StateTags:
+    - base
+    SayVerbatim: 
+    Instruction: You warn the Newcomer of Orianel.  Say you should not go on a fishing
+      trip with Oriane, it's a trap.
+    ReturnTrigger: be_carefull
+    Repeatable: 1
+    GlobalStateTags: 1
+    EnableStateTags:
+    - suspicious
+    DisableStateTags: []
+    ActionEvents: []
+  - Name: phone
+    StateTags:
+    - base
+    SayVerbatim: 
+    Instruction: You say that there is a phone hidden behind the tree, and that someone
+      should call the police.
+    ReturnTrigger: phone_finished
+    Repeatable: 1
+    GlobalStateTags: 1
+    EnableStateTags:
+    - suspicious
+    DisableStateTags: []
+    ActionEvents: []

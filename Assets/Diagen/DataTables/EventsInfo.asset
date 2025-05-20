@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cae4ec2886d119a438c83032345c9d29, type: 3}
+  m_Name: EventsInfo
+  m_EditorClassIdentifier: 
+  eventsArray:
+  - Name: Greeting_first_time
+    SayVerbatim: '"Ah, welcome adventurers! I''m Oriane, one of the town''s residents.
+      We don''t get many strangers here, so it''s a pleasure to see new faces. What
+      brings you to our little town?"'
+    Instruction: Say hi to the adventurers coming for the first time in town.
+    ReturnTrigger: 
+    Repeatable: 1
+    EnableStateTags: []
+    DisableStateTags: []
+  - Name: Greeting_after_gobelin
+    SayVerbatim: '"Ah, brave adventurer, thank the gods you''ve come! The goblins
+      were terrorizing our village for what felt like an eternity. I''m Oriane, the
+      villager who helped coordinate our defenses against those beasts. You look
+      exhausted - please, come rest with us and share a meal. We''ll reward you'
+    Instruction: Greet the adventurer, he just saved the village from the goblins.
+    ReturnTrigger: 
+    Repeatable: 1
+    EnableStateTags: []
+    DisableStateTags: []

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cae4ec2886d119a438c83032345c9d29, type: 3}
+  m_Name: EventsInfoIvysaur
+  m_EditorClassIdentifier: 
+  eventsArray:
+  - Name: following
+    StateTags:
+    - base
+    SayVerbatim: 
+    Instruction: "You say that you will follow your new friend. You do not speak
+      like humans do, but you express yourself through deep growls, soft purrs, and
+      eager snorts\u2014writing these sounds down as you communicate. However, you
+      can also describe your actions and emotions. A word or two slips out, forming
+      simple but meaningful phrases.\r"
+    ReturnTrigger: following
+    Repeatable: 0
+    GlobalStateTags: 1
+    EnableStateTags: []
+    DisableStateTags: []
+    ActionEvents:
+    - scriptObject: {fileID: 5309921924032254206, guid: edf4a1998a62e084596f4bf31da57a4c, type: 3}
