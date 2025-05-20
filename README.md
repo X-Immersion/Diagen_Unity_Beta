@@ -12,6 +12,14 @@ Find a general demo here : https://www.youtube.com/watch?v=SZGEHh1zVYI&t=3s
 - **Unity version:** 2021.3.38f1 or later  
 - **Dependencies:** [JSON .NET for Unity](https://assetstore.unity.com/packages/tools/input-management/json-net-for-unity-11347) (available on the Unity Asset Store)
 
+
+## 🛠️ Using the Diagen Editor
+
+To open the custom editor interface:  
+**Window → Diagen Editor**
+
+Add your API Key in the corresponding section : Without your API key, this project will not work. Contact us at contact@xandimmersion.com if you have lost your API Key.
+
 ## 📦 Project Structure
 
 - **Plugin folder:**  
@@ -32,8 +40,4 @@ Find a general demo here : https://www.youtube.com/watch?v=SZGEHh1zVYI&t=3s
   Scripts used in the demo (and showcasing Diagen’s key functions) are in:  
   `Assets/Diagen/Demo/DemoScripts/`
 
-## 🛠️ Using the Diagen Editor
-
-To open the custom editor interface:  
-**Window → Diagen Editor**
 
