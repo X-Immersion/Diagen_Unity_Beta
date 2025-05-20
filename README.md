@@ -1,6 +1,8 @@
 # Diagen_Unity_Beta
 Beta integration of the Diagen system in Unity — dynamic NPC dialogue generation powered by local or remote LLMs.  This repository contains the beta version of the Diagen Unity plugin, a tool designed to streamline interactive writing and conditional dialogue generation in games.
 
+Find a general demo here : https://www.youtube.com/watch?v=SZGEHh1zVYI&t=3s
+
 # Diagen_Unity_Beta
 
 **Beta version of the Diagen plugin for Unity** — a tool for dynamic, AI-powered NPC dialogue generation using local or remote LLMs.
