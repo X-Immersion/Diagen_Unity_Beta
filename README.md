@@ -3,7 +3,7 @@ Beta integration of the Diagen system in Unity — dynamic NPC dialogue generati
 
 🎥 **Watch a short demo video**: [YouTube – Diagen Flower Island Demo](https://www.youtube.com/watch?v=SZGEHh1zVYI&t=3s)
 
-📚 **Follow a detailed workshop tutorial**: [Contrast – Create an App with Diagen (Open Beta)](https://app.getcontrast.io/watch/x-immersion-open-beta-create-app-diagen-flower-island-demo-2)
+📚 **Follow a detailed workshop tutorial**: [Contrast – Diagen (Open Beta)](https://app.getcontrast.io/watch/x-immersion-open-beta-create-app-diagen-flower-island-demo-2)
 
 # Diagen_Unity_Beta
 
